@@ -1,0 +1,23 @@
+{
+  "name": "DriftNightwatchTest",
+  "version": "0.0.1",
+  "description": "Drift test with Nightwatchjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLocust3/Drift-Nightwatch"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "nightwatch": "^0.9.15"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.15",
+    "nightwatch-html-reporter": "^2.0.2",
+    "selenium-download": "^2.0.9"
+  },
+  "scripts": {
+    "test": "nightwatch tests"
+  },
+  "author": "Jake Kinsella",
+  "license": "MIT"
+}
