@@ -1,22 +1,9 @@
-function setupTest(browser) {
-  browser
-    .url(browser.launchUrl)
-    .waitForElementVisible('body', 1000)
-    .waitForElementVisible('iframe#drift-widget', 1000)
-    .frame('drift-widget')
-    .click('button.CHAT');
-}
-
-function enterText(selector, text, browser) {
-  browser.setValue(selector, text)
-  .pause(1000)
-  .setValue(selector, [browser.Keys.ENTER]);
-}
+var helpers = require('./../helpers.js')
 
 module.exports = {
   'Test Sending Message' : function (browser) {
-    setupTest(browser)
-    enterText('textarea._1eY_aSnr3MDhZqacV8fugZ', 'test', browser)
+    helpers.setupTest(browser)
+    helpers.enterText('textarea._1eY_aSnr3MDhZqacV8fugZ', 'test', browser)
     browser.end();
   }
 };
