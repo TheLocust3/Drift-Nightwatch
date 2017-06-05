@@ -30,7 +30,7 @@ module.exports = {
       .assert.containsText("div._3LgOTzOP49NkcKVg-VuAeA", "Jake Kinsella")
       .end();
   },
-  'Check Chat Message' : function (browser) {
+  'Check Chat Welcome Message' : function (browser) {
     browser
       .url(browser.launchUrl)
       .waitForElementVisible('body', 1000)
