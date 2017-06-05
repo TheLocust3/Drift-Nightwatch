@@ -20,7 +20,7 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "https://www.drift.com/",
+      "launch_url" : "https://jakekinsella.com/",
       "selenium_port"  : 4444,
       "selenium_host"  : "0.0.0.0",
       "silent": true,
@@ -29,20 +29,8 @@
         "path" : ""
       },
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "marionette": true
-      }
-    },
-
-    "chrome" : {
-      "desiredCapabilities": {
-        "browserName": "chrome"
-      }
-    },
-
-    "edge" : {
-      "desiredCapabilities": {
-        "browserName": "MicrosoftEdge"
       }
     }
   }
