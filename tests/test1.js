@@ -1,8 +1,7 @@
 module.exports = {
   'Demo test' : function (browser) {
-    browser
-      .url(browser.launchUrl)
-      // ...
-      .end();
+    browser.url(browser.launchUrl);
+    
+    browser.end();
   }
 };

@@ -20,7 +20,7 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://localhost",
+      "launch_url" : "https://www.drift.com/",
       "selenium_port"  : 4444,
       "selenium_host"  : "0.0.0.0",
       "silent": true,
