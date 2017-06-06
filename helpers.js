@@ -13,5 +13,14 @@ module.exports = {
     .setValue(selector, text)
     .pause(1000)
     .setValue(selector, [browser.Keys.ENTER]);
+  },
+
+  login: function(browser) {
+    browser.url("https://app.drift.com");
+    
+    this.enterText('input[type=email]', process.env.USERNAME, browser);
+    this.enterText('input[type=password]', process.env.PASSWORD, browser);
+    
+    browser.pause(1000);
   }
 };
