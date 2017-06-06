@@ -5,6 +5,7 @@ module.exports = {
     helpers.setupTest(browser);
     browser.end();
   },
+
   'Does Chat Open/Close' : function (browser) {
     helpers.setupTest(browser);
     browser
@@ -13,6 +14,7 @@ module.exports = {
       .click('button.DISMISS')
       .end();
   },
+  
   'Check Chat Name' : function (browser) {
     helpers.setupTest(browser);
     browser
