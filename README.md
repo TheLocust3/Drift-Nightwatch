@@ -8,3 +8,5 @@ Then, install the project's dependencies:
 
 After starting Selenium, run the tests with the command:  
 `npm test`
+  
+To run the app tests you must set environment variables USERNAME and PASSWORD
