@@ -16,7 +16,7 @@
     "selenium-download": "^2.0.9"
   },
   "scripts": {
-    "test": "nightwatch tests"
+    "test": "nightwatch chatbot_tests"
   },
   "author": "Jake Kinsella",
   "license": "MIT"
