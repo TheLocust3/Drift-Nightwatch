@@ -1,5 +1,5 @@
 {
-  "src_folders" : ["chatbot_tests", "app_tests"],
+  "src_folders" : ["app", "chatbot"],
   "output_folder" : "reports",
   "globals_path" : "globals.js",
 
@@ -9,10 +9,6 @@
       "desiredCapabilities": {
         "browserName": "chrome"
       }
-    },
-
-    "app_tests" : {
-      "launch_url" : "https://app.drift.com"
     }
   }
 }
