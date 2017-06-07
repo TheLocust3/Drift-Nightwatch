@@ -51,16 +51,53 @@ defineSupportCode(({ Given, Then, When }) => {
     return client
       .waitForElementVisible('form._1Gtju_Jekx_uqFMJML29ZR', 3000)
       .verify.elementPresent('form._1Gtju_Jekx_uqFMJML29ZR')
-      .verify.elementPresent('button._1pX4AgCirrd3ONwyrdTrtK')
+      .verify.elementPresent('button._1pX4AgCirrd3ONwyrdTrtK');
   })
 
   Then(/^email label should say "(.*?)"$/, (text) => {
     return client
-      .assert.containsText("label._1xnWH0aQJFEhmp915uALhK", text)
+      .assert.containsText("label._1xnWH0aQJFEhmp915uALhK", text);
   })
 
   Then(/^email button should say "(.*?)"$/, (text) => {
     return client
-      .assert.containsText("button._1pX4AgCirrd3ONwyrdTrtK", text)
+      .assert.containsText("button._1pX4AgCirrd3ONwyrdTrtK", text);
+  })
+
+  // App
+
+  Given(/^Given I open Drift\'s website$/, () => {
+    return client
+      .url('https://www.drift.com/')
+      .waitForElementVisible('body', 1000);
+  })
+
+  Given(/^Given I log into Drift$/, () => {
+    helpers.login(client);
+    return client;
+  })
+
+  Given(/^Given I log out of Drift$/, () => {
+    helpers.login(client)
+    return client
+      .click('div.AgentStatusButton---1zsEk')
+      .pause(1000)
+      .useXpath()
+      .click('//span[text()="Sign Out"]')
+      .useCss();
+  })
+
+  Then(/^active tab is "(.*?)"$/, (text) => {
+    return client
+      .useXpath()
+      .assert.cssClassPresent('//a[contains(@href, "/' + text + '")]', 'active')
+      .useCss();
+  })
+
+  When(/^I click tab "(.*?)"$/, (text) => {
+    return client
+    .useXpath()
+    .click('//a[contains(@href, "/' + text + '")]')
+    .useCss;
   })
 })
