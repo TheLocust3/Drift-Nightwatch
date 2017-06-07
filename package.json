@@ -17,7 +17,7 @@
     "chromedriver": "^2.29.0"
   },
   "scripts": {
-    "test": "nightwatch app chatbot"
+    "test": "nightwatch"
   },
   "author": "Jake Kinsella",
   "license": "MIT"
