@@ -14,7 +14,7 @@ module.exports = {
     .useCss()
     .setValue(selector, text)
     .pause(1000)
-    .setValue(selector, [browser.Keys.ENTER]);
+    .setValue(selector, [browser.Keys.ENTER])
   },
 
   login: function(browser) {
