@@ -16,7 +16,6 @@ defineSupportCode(({ Given, Then, When }) => {
   })
 
   Given(/^I log out of Drift$/, () => {
-    helpers.login(client)
     return client
       .click('div.AgentStatusButton---1zsEk')
       .pause(1000)
