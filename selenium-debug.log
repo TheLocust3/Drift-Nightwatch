@@ -1,0 +1,88 @@
+23:06:44.918 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+23:06:44.919 INFO - Launching a standalone Selenium Server
+2017-06-06 23:06:44.934:INFO::main: Logging initialized @221ms to org.seleniumhq.jetty9.util.log.StdErrLog
+23:06:44.982 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+23:06:44.982 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+23:06:44.982 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:06:44.982 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+23:06:44.982 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:06:44.983 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-06-06 23:06:45.020:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-06 23:06:45.050:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-06-06 23:06:45.078:INFO:osjs.AbstractConnector:main: Started ServerConnector@146ba0ac{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-06 23:06:45.078:INFO:osjs.Server:main: Started @365ms
+23:06:45.078 INFO - Selenium Server is up and running
+23:06:45.304 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+23:06:45.327 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+23:06:45.343 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 34547
+Only local connections are allowed.
+23:06:46.352 INFO - Detected dialect: OSS
+23:06:46.369 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+23:06:46.384 INFO - Executing: [get: https://jakekinsella.com])
+23:06:47.894 INFO - Done: [get: https://jakekinsella.com]
+23:06:47.902 INFO - Executing: [find elements: By.cssSelector: body])
+23:06:47.932 INFO - Done: [find elements: By.cssSelector: body]
+23:06:47.936 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]])
+23:06:47.954 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]]
+23:06:47.959 INFO - Executing: [find elements: By.cssSelector: iframe#drift-widget])
+23:06:47.977 INFO - Done: [find elements: By.cssSelector: iframe#drift-widget]
+23:06:47.980 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]])
+23:06:48.000 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]]
+23:06:48.005 INFO - Executing: [switch to frame: drift-widget])
+23:06:48.048 INFO - Done: [switch to frame: drift-widget]
+23:06:48.057 INFO - Executing: [find element: By.cssSelector: button.CHAT])
+23:06:48.074 INFO - Done: [find element: By.cssSelector: button.CHAT]
+23:06:48.078 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]])
+23:06:48.203 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]]
+23:06:48.214 INFO - Executing: [get: https://jakekinsella.com])
+23:06:48.933 INFO - Done: [get: https://jakekinsella.com]
+23:06:48.938 INFO - Executing: [find elements: By.cssSelector: body])
+23:06:48.955 INFO - Done: [find elements: By.cssSelector: body]
+23:06:48.958 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]])
+23:06:48.973 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]]
+23:06:48.977 INFO - Executing: [find elements: By.cssSelector: iframe#drift-widget])
+23:06:48.985 INFO - Done: [find elements: By.cssSelector: iframe#drift-widget]
+23:06:48.989 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]])
+23:06:49.007 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]]
+23:06:49.010 INFO - Executing: [switch to frame: drift-widget])
+23:06:49.036 INFO - Done: [switch to frame: drift-widget]
+23:06:49.040 INFO - Executing: [find element: By.cssSelector: button.CHAT])
+23:06:49.047 INFO - Done: [find element: By.cssSelector: button.CHAT]
+23:06:49.050 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]])
+23:06:49.162 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]]
+23:06:50.170 INFO - Executing: [find elements: By.cssSelector: div._1b8HzQM8nmpP_VSMq7OnIz])
+23:06:50.188 INFO - Done: [find elements: By.cssSelector: div._1b8HzQM8nmpP_VSMq7OnIz]
+23:06:50.191 INFO - Executing: [find element: By.cssSelector: button.DISMISS])
+23:06:50.208 INFO - Done: [find element: By.cssSelector: button.DISMISS]
+23:06:50.211 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]])
+23:06:50.258 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]]
+23:06:50.266 INFO - Executing: [get: https://jakekinsella.com])
+23:06:50.595 INFO - Done: [get: https://jakekinsella.com]
+23:06:50.601 INFO - Executing: [find elements: By.cssSelector: body])
+23:06:50.625 INFO - Done: [find elements: By.cssSelector: body]
+23:06:50.628 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]])
+23:06:50.642 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: body]]
+23:06:50.645 INFO - Executing: [find elements: By.cssSelector: iframe#drift-widget])
+23:06:50.653 INFO - Done: [find elements: By.cssSelector: iframe#drift-widget]
+23:06:50.657 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]])
+23:06:50.674 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: iframe#drift-widget]]
+23:06:50.677 INFO - Executing: [switch to frame: drift-widget])
+23:06:50.699 INFO - Done: [switch to frame: drift-widget]
+23:06:50.706 INFO - Executing: [find element: By.cssSelector: button.CHAT])
+23:06:50.713 INFO - Done: [find element: By.cssSelector: button.CHAT]
+23:06:50.715 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]])
+23:06:50.814 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: button.CHAT]]
+23:06:51.824 INFO - Executing: [find element: By.cssSelector: div._3LgOTzOP49NkcKVg-VuAeA])
+23:06:51.841 INFO - Done: [find element: By.cssSelector: div._3LgOTzOP49NkcKVg-VuAeA]
+23:06:51.844 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: div._3LgOTzOP49NkcKVg-VuAeA]])
+23:06:51.864 INFO - Done: [get text: 10 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: div._3LgOTzOP49NkcKVg-VuAeA]]
+23:06:52.875 INFO - Executing: [find element: By.cssSelector: div.dp2Cn7rCPUkibY9nD2WFj])
+23:06:52.892 INFO - Done: [find element: By.cssSelector: div.dp2Cn7rCPUkibY9nD2WFj]
+23:06:52.895 INFO - Executing: [get text: 11 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: div.dp2Cn7rCPUkibY9nD2WFj]])
+23:06:52.913 INFO - Done: [get text: 11 [[ChromeDriver: chrome on MAC (9da3eb5f3c5aeb0a801104cf5548509d)] -> css selector: div.dp2Cn7rCPUkibY9nD2WFj]]
+23:06:52.923 INFO - Executing: [delete session: fad970f3-4da7-4ede-9d9a-688d887c9040])
+23:06:52.994 INFO - Done: [delete session: fad970f3-4da7-4ede-9d9a-688d887c9040]
