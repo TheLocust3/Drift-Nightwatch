@@ -1,11 +1,9 @@
 Feature: Basic App Tests
 
-Background:
-  Given I open Drift's website
-  Given I log into Drift
-
 Scenario: Check active dashboard
 
+  Given I open Drift's website
+  Given I log into Drift
   Then active tab is "dashboard"
 
 Scenario: Check active overview
@@ -34,7 +32,7 @@ Scenario: Check active leadbots
   Then active tab is "leadbots"
 
 Scenario: Check active live view
-
+  
   When I click tab "live"
   Then active tab is "live"
 
@@ -42,3 +40,4 @@ Scenario: Check active settings
 
   When I click tab "settings"
   Then active tab is "settings"
+  Given I log out of Drift

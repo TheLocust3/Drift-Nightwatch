@@ -9,5 +9,4 @@ Scenario: Test Log In
 
 Scenario: Test Log Out
 
-  Given I log into Drift
   Given I log out of Drift
